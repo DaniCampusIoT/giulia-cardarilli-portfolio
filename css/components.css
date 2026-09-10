@@ -132,3 +132,113 @@
 /* Progressive reveal */
 .reveal { opacity: 0; transform: translateY(1.25rem); transition: opacity 650ms ease, transform 650ms ease; animation: none; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+/* Resources */
+.resource-card {
+  display: flex;
+  min-height: 17rem;
+  flex-direction: column;
+  padding: 2rem;
+  color: var(--violet-950);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: 0 .8rem 2.5rem rgba(55, 28, 92, .055);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.resource-card:hover {
+  transform: translateY(-.35rem);
+  border-color: var(--violet-300);
+  box-shadow: var(--shadow);
+}
+
+.resource-card__type {
+  margin-bottom: 1.25rem;
+  color: var(--violet-700);
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.resource-card h3 {
+  max-width: 15ch;
+  font-size: 1.65rem;
+}
+
+.resource-card > p:not(.resource-card__type) {
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+.resource-card__status {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: auto;
+  padding-top: 1.4rem;
+  color: var(--violet-700);
+  font-size: .84rem;
+  font-weight: 700;
+}
+
+.resource-card__status::before {
+  margin-right: .45rem;
+  color: var(--violet-600);
+  content: "✦";
+}
+
+/* Resources */
+.resource-card {
+  display: flex;
+  min-height: 17rem;
+  flex-direction: column;
+  padding: 2rem;
+  color: var(--violet-950);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: 0 .8rem 2.5rem rgba(55, 28, 92, .055);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.resource-card:hover {
+  transform: translateY(-.35rem);
+  border-color: var(--violet-300);
+  box-shadow: var(--shadow);
+}
+
+.resource-card__type {
+  margin-bottom: 1.25rem;
+  color: var(--violet-700);
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.resource-card h3 {
+  max-width: 15ch;
+  font-size: 1.65rem;
+}
+
+.resource-card > p:not(.resource-card__type) {
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+.resource-card__status {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: auto;
+  padding-top: 1.4rem;
+  color: var(--violet-700);
+  font-size: .84rem;
+  font-weight: 700;
+}
+
+.resource-card__status::before {
+  margin-right: .45rem;
+  color: var(--violet-600);
+  content: "✦";
+}
