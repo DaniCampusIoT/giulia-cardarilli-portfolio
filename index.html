@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7352b7" />
+    <meta name="description" content="Portfolio profesional de Giulia Cardarilli, psicóloga en formación clínica." />
+    <title>Giulia Cardarilli | Psicología</title>
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content" data-i18n="accessibility.skip">Saltar al contenido principal</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Giulia Cardarilli — Inicio">
+          <span class="brand-mark" aria-hidden="true">G</span>
+          <span class="brand-name">Giulia Cardarilli</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navegación principal" data-i18n-aria-label="accessibility.mainNav">
+          <a href="#sobre-mi" data-i18n="navigation.about">Sobre mí</a>
+          <a href="#experiencia" data-i18n="navigation.experience">Experiencia</a>
+          <a href="#formacion" data-i18n="navigation.education">Formación</a>
+          <a href="#contacto" data-i18n="navigation.contact">Contacto</a>
+        </nav>
+
+        <div class="header-actions">
+          <label class="sr-only" for="language-select" data-i18n="language.label">Idioma</label>
+          <select id="language-select" class="language-selector" aria-label="Cambiar idioma" data-i18n-aria-label="language.label">
+            <option value="es">ES</option>
+            <option value="it">IT</option>
+            <option value="en">EN</option>
+          </select>
+          <a class="button button--small button--header" href="#contacto" data-i18n="navigation.contact">Contacto</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="inicio" class="hero section">
+        <div class="hero-orb hero-orb--one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb--two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Psicóloga en formación clínica</p>
+            <h1 data-i18n="hero.title">Comprender nuestros vínculos también es una forma de cuidarnos.</h1>
+            <p class="hero-description" data-i18n="hero.description">Soy Giulia Cardarilli, psicóloga en formación clínica, interesada en el apego, las relaciones y el bienestar emocional.</p>
+            <div class="hero-actions">
+              <a class="button button--primary" href="#sobre-mi" data-i18n="hero.primaryCta">Conoce mi perfil</a>
+              <a class="text-link" href="#formacion">
+                <span data-i18n="hero.secondaryCta">Ver formación</span>
+                <span aria-hidden="true">↘</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-portrait reveal">
+            <div class="portrait-frame">
+              <img src="assets/images/profile/giulia-cardarilli.jpeg" alt="Giulia Cardarilli" data-i18n-alt="images.profileAlt" />
+            </div>
+            <div class="portrait-note">
+              <span class="portrait-note__line" aria-hidden="true"></span>
+              <p data-i18n="hero.note">Escucha, rigor y cercanía.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section section--soft about">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="about.eyebrow">Sobre mí</p>
+            <h2 data-i18n="about.title">Una mirada cercana, rigurosa y humana.</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p data-i18n="about.paragraphOne">Mi interés profesional nace de la escucha y de la comprensión de las experiencias que dan forma a nuestra manera de relacionarnos.</p>
+            <p data-i18n="about.paragraphTwo">Combino mi formación en Psicología con experiencia en entornos de alta responsabilidad, análisis y atención a personas. Valoro la empatía, la confidencialidad y el trabajo cuidadoso con cada realidad individual.</p>
+            <div class="pill-list" aria-label="Valores profesionales" data-i18n-aria-label="about.valuesLabel">
+              <span data-i18n="about.valueOne">Escucha activa</span>
+              <span data-i18n="about.valueTwo">Empatía</span>
+              <span data-i18n="about.valueThree">Rigor</span>
+              <span data-i18n="about.valueFour">Responsabilidad</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiencia" class="section experience">
+        <div class="container">
+          <div class="section-heading section-heading--center reveal">
+            <p class="eyebrow" data-i18n="experience.eyebrow">Experiencia</p>
+            <h2 data-i18n="experience.title">Habilidades que acompañan mi perfil profesional.</h2>
+            <p data-i18n="experience.intro">Una trayectoria desarrollada en contextos exigentes, con especial atención a las personas, la comunicación responsable y el análisis cuidadoso de la información.</p>
+          </div>
+
+          <div class="experience-grid">
+            <article class="experience-card reveal">
+              <p class="experience-card__date" data-i18n="experience.amlDate">2025 — Actualidad</p>
+              <h3 data-i18n="experience.amlTitle">Análisis de perfiles complejos · AML/CFT</h3>
+              <p class="experience-card__organisation">OPPLUS · Málaga</p>
+              <p data-i18n="experience.amlDescription">Experiencia en análisis responsable de información sensible, gestión rigurosa de procesos y toma de decisiones en un entorno de alta exigencia.</p>
+              <ul class="skill-list">
+                <li data-i18n="experience.amlSkillOne">Confidencialidad y sentido ético</li>
+                <li data-i18n="experience.amlSkillTwo">Atención al detalle</li>
+                <li data-i18n="experience.amlSkillThree">Pensamiento analítico</li>
+              </ul>
+            </article>
+
+            <article class="experience-card reveal">
+              <p class="experience-card__date" data-i18n="experience.managerDate">2024 — Actualidad</p>
+              <h3 data-i18n="experience.managerTitle">Gestión de clientes · BBVA Italia</h3>
+              <p class="experience-card__organisation">OPPLUS · Málaga</p>
+              <p data-i18n="experience.managerDescription">Atención y acompañamiento de personas en un contexto internacional, con una comunicación clara, cercana y adaptada a necesidades diversas.</p>
+              <ul class="skill-list">
+                <li data-i18n="experience.managerSkillOne">Comunicación intercultural</li>
+                <li data-i18n="experience.managerSkillTwo">Escucha y orientación a la persona</li>
+                <li data-i18n="experience.managerSkillThree">Resolución responsable de situaciones</li>
+              </ul>
+            </article>
+
+            <article class="experience-card experience-card--accent reveal">
+              <p class="experience-card__date" data-i18n="experience.profileDate">Perfil profesional</p>
+              <h3 data-i18n="experience.profileTitle">Competencias transferibles</h3>
+              <p data-i18n="experience.profileDescription">La coordinación, la formación interna y el trabajo en equipo han reforzado una forma de trabajar proactiva, organizada y sensible a las necesidades individuales.</p>
+              <ul class="skill-list">
+                <li data-i18n="experience.profileSkillOne">Trabajo colaborativo</li>
+                <li data-i18n="experience.profileSkillTwo">Organización y compromiso</li>
+                <li data-i18n="experience.profileSkillThree">Acompañamiento respetuoso</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="formacion" class="section section--soft education">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="education.eyebrow">Formación</p>
+            <h2 data-i18n="education.title">Aprendizaje continuo.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-item__dot" aria-hidden="true"></span>
+              <div>
+                <p class="timeline-item__period" data-i18n="education.masterStatus">En curso</p>
+                <h3 data-i18n="education.masterTitle">Máster en Psicología Clínica</h3>
+                <p data-i18n="education.masterDescription">Formación avanzada orientada a ampliar conocimientos y herramientas dentro del ámbito de la psicología clínica.</p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="timeline-item__dot" aria-hidden="true"></span>
+              <div>
+                <p class="timeline-item__period" data-i18n="education.degreePeriod">2016 — 2020</p>
+                <h3 data-i18n="education.degreeTitle">Grado en Psicología</h3>
+                <p data-i18n="education.degreeInstitution">Universidad de Málaga</p>
+              </div>
+            </article>
+
+            <article class="timeline-item reveal">
+              <span class="timeline-item__dot" aria-hidden="true"></span>
+              <div>
+                <p class="timeline-item__period" data-i18n="education.philosophyPeriod">2022 — 2026</p>
+                <h3 data-i18n="education.philosophyTitle">Estudios de Filosofía</h3>
+                <p data-i18n="education.philosophyInstitution">Universidad Nacional de Educación a Distancia (UNED)</p>
+              </div>
+            </article>
+          </div>
+
+          <article class="certificate-card reveal">
+            <div class="certificate-card__copy">
+              <p class="eyebrow" data-i18n="education.complementaryLabel">Formación complementaria</p>
+              <h3 data-i18n="education.attachmentTitle">Curso sobre Apego Adulto: de nuestros vínculos a nuestras relaciones</h3>
+              <p class="certificate-card__meta" data-i18n="education.attachmentMeta">AEPSIS · 20 horas lectivas · Septiembre de 2026</p>
+              <p data-i18n="education.attachmentDescription">Formación orientada a comprender el apego adulto y su influencia en la forma en que construimos y vivimos nuestras relaciones.</p>
+              <a class="text-link" href="assets/images/certificates/curso-apego-adulto-aepsis.jpeg" target="_blank" rel="noreferrer">
+                <span data-i18n="education.certificateCta">Ver acreditación</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <img class="certificate-card__image" src="assets/images/certificates/curso-apego-adulto-aepsis.jpeg" alt="Certificado del curso sobre apego adulto de AEPSIS" data-i18n-alt="images.certificateAlt" />
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact">
+        <div class="container contact-panel reveal">
+          <div>
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contacto</p>
+            <h2 data-i18n="contact.title">Construyamos una conversación.</h2>
+            <p data-i18n="contact.description">Para colaboraciones, proyectos o contacto profesional, puedes encontrarme en LinkedIn.</p>
+          </div>
+          <div class="contact-panel__actions">
+            <a class="button button--primary" href="https://www.linkedin.com/in/giulia-cardarilli-53b72a1b1" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="button button--secondary" href="assets/documents/cv-giulia-cardarilli-es.pdf" data-cv-link download>
+              <span data-i18n="contact.cvCta">Descargar CV</span>
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="current-year"></span> Giulia Cardarilli. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+        <p data-i18n="footer.disclaimer">Este sitio presenta un perfil profesional y formativo. No ofrece atención psicológica ni constituye una consulta clínica.</p>
+      </div>
+    </footer>
+  </body>
+</html>

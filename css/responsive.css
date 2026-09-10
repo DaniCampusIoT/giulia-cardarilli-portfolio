@@ -1,0 +1,24 @@
+@media (max-width: 860px) {
+  .site-nav { display: none; }
+  .hero-grid, .two-column, .certificate-card { grid-template-columns: 1fr; }
+  .hero-grid { min-height: auto; }
+  .hero-portrait { justify-self: start; width: min(100%, 25rem); }
+  .portrait-note { right: -1.5rem; }
+  .experience-grid { grid-template-columns: 1fr; }
+  .experience-card { min-height: 0; }
+  .skill-list { margin-top: 1rem; }
+  .contact-panel { align-items: start; flex-direction: column; }
+  .contact-panel__actions { justify-content: flex-start; }
+  .footer-inner { align-items: start; flex-direction: column; }
+  .footer-inner p:last-child { text-align: left; }
+}
+@media (max-width: 540px) {
+  .container { width: min(var(--container), calc(100% - 2rem)); }
+  .header-inner { min-height: 4.65rem; gap: .5rem; }
+  .brand-name, .button--header { display: none; }
+  .header-actions { margin-left: auto; }
+  .hero { padding-top: 3.75rem; }
+  .portrait-note { position: static; margin-top: 1rem; }
+  .section { padding-block: 4.5rem; }
+  .certificate-card { padding: 1.25rem; }
+}

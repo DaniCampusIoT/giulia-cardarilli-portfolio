@@ -1,0 +1,11 @@
+.hero { padding-top: clamp(3.5rem, 7vw, 7rem); background: linear-gradient(135deg, var(--white) 0%, var(--violet-50) 100%); }
+.hero-orb { position: absolute; border-radius: 50%; filter: blur(1px); pointer-events: none; }
+.hero-orb--one { top: 8%; left: -10rem; width: 21rem; height: 21rem; background: rgba(205,188,233,.3); }
+.hero-orb--two { right: 3%; bottom: 2%; width: 12rem; height: 12rem; border: 1px solid var(--violet-150); }
+.about { border-top: 1px solid var(--violet-100); }
+.education { border-top: 1px solid var(--violet-100); }
+.reveal { animation: rise-in .65s both; }
+.experience-grid .reveal:nth-child(2) { animation-delay: .09s; }
+.experience-grid .reveal:nth-child(3) { animation-delay: .18s; }
+@keyframes rise-in { from { opacity: 0; transform: translateY(1.25rem); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }

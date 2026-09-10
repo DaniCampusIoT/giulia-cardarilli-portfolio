@@ -1,0 +1,22 @@
+:root {
+  --violet-950: #28163e;
+  --violet-800: #49306a;
+  --violet-700: #62428f;
+  --violet-600: #7352b7;
+  --violet-300: #cdbce9;
+  --violet-150: #e9e1f6;
+  --violet-100: #f2edfa;
+  --violet-50: #faf8fe;
+  --ink: #292431;
+  --muted: #6d6476;
+  --white: #ffffff;
+  --line: #e7e0ec;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", Arial, sans-serif;
+  --container: 1160px;
+  --radius-sm: 0.75rem;
+  --radius-md: 1.25rem;
+  --radius-lg: 2rem;
+  --shadow: 0 1.25rem 3.5rem rgba(55, 28, 92, 0.1);
+  --transition: 180ms ease;
+}
