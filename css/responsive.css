@@ -22,3 +22,30 @@
   .section { padding-block: 4.5rem; }
   .certificate-card { padding: 1.25rem; }
 }
+
+@media (max-width: 860px) {
+  .menu-toggle { display: grid; place-items: center; }
+  .header-actions .button--header { display: none; }
+}
+
+@media (min-width: 861px) {
+  .mobile-menu { display: none !important; }
+}
+
+@media (max-width: 540px) {
+  .mobile-menu { top: 4.65rem; padding-inline: 1rem; }
+  .header-actions .language-selector { display: none; }
+  .certificate-modal { width: calc(100% - 1rem); padding: .35rem; }
+  .modal-close { top: .85rem; right: .85rem; }
+}
+
+@media (max-width: 540px) {
+  .portrait-note {
+    align-self: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-right: 0;
+    text-align: left;
+  }
+}
